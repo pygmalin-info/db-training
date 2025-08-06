@@ -8,5 +8,6 @@ services:
       MYSQL_DATABASE: db-training
       MYSQL_USER: user
       MYSQL_PASSWORD: pass
+      TZ: Asia/Tokyo
     ports:
       - "13306:3306"
